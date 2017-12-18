@@ -3,8 +3,11 @@ set smartindent
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+helptags ~/.vim/doc
+
 inoremap (<cr> (<cr>)<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
+
 
 inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
