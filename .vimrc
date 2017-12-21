@@ -8,7 +8,6 @@ helptags ~/.vim/doc
 inoremap (<cr> (<cr>)<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
 
-
 inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
 inoremap {{     {
