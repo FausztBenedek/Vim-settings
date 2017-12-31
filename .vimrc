@@ -5,6 +5,8 @@ set shiftwidth=4
 set expandtab
 helptags ~/.vim/doc
 
+:set tags+=/usr/include/tags
+
 inoremap (<cr> (<cr>)<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
 
